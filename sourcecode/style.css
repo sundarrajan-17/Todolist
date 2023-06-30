@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+h1{
+    font-size: 150px;
+    text-align: center;
+    color: #E5E5CB;
+    opacity: 0.7;
+    margin-bottom: 0;
+}
+body{
+    background: rgb(174,13,139);
+    background: radial-gradient(circle, rgba(174,13,139,1) 35%, rgba(155,16,130,1) 43%); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+form{
+    margin-top: 50px;
+}
+form input{
+    width:350px;
+    height:50px;
+    font-size: 30px;
+    text-align: center;
+    opacity: 1;
+    color:black;
+}
+form ul{
+    list-style-type: none;
+    font-size: large;
+    margin: 0;
+}
+form ul li{
+    padding: 10px;
+    font-size: 22px;
+    margin-left: -39px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+}
+.footer{
+    margin-top: 30px;
+    opacity: 0.8;
+    color: #fff;
+}
+form input:focus{
+    background-color:#fff;
+    color: black;
+    opacity: 1;
+    outline: none;
+}
+li.completed{
+    text-decoration: line-through;
+}
